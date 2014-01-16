@@ -23,7 +23,7 @@ Rackup is your friend:
 Contribute
 ==========
 
-Just fork [MailCannon Monitor](https://github.com/lucasmartins/mailcannon-monitor), test it exaustively and make a pull request.
+Just fork [MailCannon Monitor](https://github.com/lucasmartins/mailcannon-monitor), test it exhaustively and make a pull request.
 
 Support
 =======
