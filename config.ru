@@ -12,8 +12,9 @@ Sidekiq.configure_client do |config|
 end
 
 use Rack::Auth::Basic, "Restricted Area" do |username, password|
+  right_user = ENV['MAILCANNON_MONITOR_USERNAME']||'mailcannon'
   right_password = ENV['MAILCANNON_MONITOR_PASSWORD']||'changeme'
-  username == 'mailcannon' and password == right_password
+  username == right_user and password == right_password
 end
 
 map '/' do

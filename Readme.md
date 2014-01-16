@@ -20,6 +20,8 @@ Rackup is your friend:
   $ bundle exec rackup
 ```
 
+Default user:passwd is `mailcannon:changeme`
+
 Contribute
 ==========
 
