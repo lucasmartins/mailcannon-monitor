@@ -12,7 +12,7 @@ No brainer, just push it to your server/Heroku and set the `REDIS_URL` variable 
 
 You **SHOULD** change the password defined on `config.ru` or set the `MAILCANNON_MONITOR_PASSWORD` variable.
 
-Refer to the main gem for more details: [MailCannon](https://github.com/lucasmartins/mailcannon).
+Refer to the [main gem for more details](https://github.com/lucasmartins/mailcannon).
 
 Rackup is your friend:
 
@@ -25,7 +25,7 @@ Default user:passwd is `mailcannon:changeme`
 Contribute
 ==========
 
-Just fork [MailCannon Monitor](https://github.com/lucasmartins/mailcannon-monitor), test it exhaustively and make a pull request.
+Just fork [MailCannon Monitor](https://github.com/lucasmartins/mailcannon-monitor), write your patch/feature, test it exhaustively and make a pull request.
 
 Support
 =======
